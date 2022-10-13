@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="GruposTrabalho - Jakarta 9:war">
+    <output-path>//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-27.0.0.Beta1/standalone/deployments</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GruposTrabalho - Jakarta 9</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GruposTrabalho-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GruposTrabalho - Jakarta 9:war exploded" />
+    </root>
+  </artifact>
+</component>
