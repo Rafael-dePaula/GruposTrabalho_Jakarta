@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" build-on-make="true" name="GruposTrabalho - Jakarta 9:war">
-    <output-path>//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-27.0.0.Beta1/standalone/deployments</output-path>
+    <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>GruposTrabalho - Jakarta 9</module>

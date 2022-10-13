@@ -1,19 +1,34 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
-import jakarta.json.bind.annotation.JsonbProperty;
-import jakarta.persistence.*;
-
+import javax.json.bind.annotation.JsonbProperty;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
+// "SELECT p from Pessoa p WHERE NOT p.endereco.tipoLogradouro = 2"
 @Entity
 @NamedQueries({
         @NamedQuery(
-                name = "Pessoa.findAll",
-                query = "SELECT p FROM Pessoa p")
+                name = "Pessoa.consulta01",
+                query = "SELECT p FROM Pessoa p"),
+        @NamedQuery(
+                name = "Pessoa.consulta02",
+                query = "SELECT p.nome from Pessoa p"),
+        @NamedQuery(
+                name = "Pessoa.consulta03",
+                query = "SELECT p.nome, p.endereco from Pessoa p"),
+        @NamedQuery(
+                name = "Pessoa.consulta04",
+                query = "SELECT p from Pessoa p WHERE p.endereco.tipoLogradouro = 1"),
+        @NamedQuery(
+                name = "Pessoa.consulta05",
+                query = "SELECT p from Pessoa p WHERE NOT p.endereco.tipoLogradouro = 2"),
+        @NamedQuery(
+                name = "Pessoa.consulta06",
+                query = "SELECT p.nome, t FROM Pessoa p, IN (p.telefones) t")
 })
 public class Pessoa implements Serializable {
     @Id
@@ -35,21 +50,20 @@ public class Pessoa implements Serializable {
     private Endereco endereco;
 
     @OneToMany(
-            mappedBy = "pessoa",
             cascade = CascadeType.ALL,
-            fetch = FetchType.EAGER)
+            orphanRemoval = true)
+    @JoinColumn(name = "pessoa_id")
     private List<Telefone> telefones;
 
     @OneToMany(
             mappedBy = "pessoa",
-            cascade = CascadeType.PERSIST,
-            fetch = FetchType.EAGER)
+            cascade = CascadeType.ALL,
+            orphanRemoval = true)
     private List<Atuacao> atuacoes;
 
     @OneToMany(
             mappedBy = "lider",
-            cascade = CascadeType.PERSIST,
-            fetch = FetchType.EAGER)
+            cascade = CascadeType.PERSIST)
     @JsonbProperty("lideranca")
     private List<Grupo> gruposLiderados;
 
@@ -61,13 +75,9 @@ public class Pessoa implements Serializable {
         this.gruposLiderados.add(grupo);
     }
 
-    ;
-
     //<editor-fold defaultstate="collapsed" desc="Constructors">
     public Pessoa() {
     }
-
-    ;
 
     public Pessoa(String nome, String email, LocalDate nascimento) {
         this.nome = nome;
@@ -149,7 +159,6 @@ public class Pessoa implements Serializable {
     }
 
     public void setTelefones(List<Telefone> telefones) {
-        telefones.forEach(tel -> tel.setPessoa(this));
         this.telefones = telefones;
     }
 

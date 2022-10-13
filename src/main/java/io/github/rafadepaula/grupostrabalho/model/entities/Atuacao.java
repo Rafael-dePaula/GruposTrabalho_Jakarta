@@ -1,9 +1,8 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
 
-import jakarta.json.bind.annotation.JsonbTransient;
-import jakarta.persistence.*;
-
+import javax.json.bind.annotation.JsonbTransient;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -17,10 +16,12 @@ public class Atuacao implements Serializable {
     private LocalDate inicio;
     private LocalDate termino;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "pessoa_id")
     @JsonbTransient
     private Pessoa pessoa;
-    @ManyToOne(cascade = CascadeType.PERSIST)
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "grupo_id")
     @JsonbTransient
     private Grupo grupo;
 
@@ -31,6 +32,18 @@ public class Atuacao implements Serializable {
         this.inicio = inicio;
         this.pessoa = pessoa;
         this.grupo = grupo;
+    }
+
+    public Atuacao(Long id, LocalDate inicio, LocalDate termino) {
+        this.id = id;
+        this.inicio = inicio;
+        this.termino = termino;
+    }
+
+    public Atuacao(LocalDate inicio, LocalDate termino) {
+        this.id = id;
+        this.inicio = inicio;
+        this.termino = termino;
     }
 
     public Atuacao(LocalDate inicio, Grupo grupo) {

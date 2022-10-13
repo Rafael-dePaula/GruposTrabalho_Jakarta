@@ -1,21 +1,21 @@
 package io.github.rafadepaula.grupostrabalho.beans.dadosiniciais;
 
-import io.github.rafadepaula.grupostrabalho.beans.pessoa.PessoaBean;
+import io.github.rafadepaula.grupostrabalho.beans.pessoa.PessoaBeanLocal;
 import io.github.rafadepaula.grupostrabalho.model.entities.*;
-import jakarta.annotation.PostConstruct;
-import jakarta.ejb.Singleton;
-import jakarta.ejb.Startup;
-import jakarta.inject.Inject;
 
+import javax.annotation.PostConstruct;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
+import javax.inject.Inject;
 import java.time.LocalDate;
 import java.util.List;
 
 @Singleton
 @Startup
-public class DadosIniciais extends DadosIniciaisLocal {
+public class DadosIniciais implements DadosIniciaisLocal {
 
     @Inject
-    PessoaBean pessoaBean;
+    PessoaBeanLocal pessoaBean;
 
     @PostConstruct
     @Override

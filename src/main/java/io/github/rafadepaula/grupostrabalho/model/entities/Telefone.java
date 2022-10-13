@@ -1,8 +1,9 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
-import jakarta.json.bind.annotation.JsonbTransient;
-import jakarta.persistence.*;
-
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
@@ -12,11 +13,6 @@ public class Telefone implements Serializable {
     private Long id;
     private Byte ddd;
     private Integer numero;
-
-    @ManyToOne
-    @JoinColumn(name = "pessoa_id")
-    @JsonbTransient
-    private Pessoa pessoa;
 
     public Telefone() {
     }
@@ -51,13 +47,6 @@ public class Telefone implements Serializable {
         this.numero = numero;
     }
 
-    public Pessoa getPessoa() {
-        return pessoa;
-    }
-
-    public void setPessoa(Pessoa pessoa) {
-        this.pessoa = pessoa;
-    }
     // </editor-fold>
 
 

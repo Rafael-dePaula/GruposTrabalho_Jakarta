@@ -1,9 +1,8 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.Enumerated;
-
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Enumerated;
 import java.io.Serializable;
 
 @Embeddable

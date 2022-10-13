@@ -13,6 +13,11 @@ public class MembroDto {
         this.nome = nomeMembro;
     }
 
+    public MembroDto(String grupo, String nome) {
+        this.grupo = grupo;
+        this.nome = nome;
+    }
+
     public String getGrupo() {
         return grupo;
     }

@@ -1,9 +1,8 @@
 package io.github.rafadepaula.grupostrabalho.utils;
 
-import jakarta.json.bind.JsonbBuilder;
-import jakarta.json.bind.JsonbConfig;
-import jakarta.json.bind.config.PropertyOrderStrategy;
-
+import javax.json.bind.JsonbBuilder;
+import javax.json.bind.JsonbConfig;
+import javax.json.bind.config.PropertyOrderStrategy;
 import java.util.Locale;
 
 public final class HTMLBuilder {
@@ -22,7 +21,9 @@ public final class HTMLBuilder {
     }
 
     public static String blocoRelatorioBuilder(String title, Object relatorio) {
-        return "<h2>" + title + "</h2>" +
-                "<p><pre> " + toJson(relatorio) + "</pre></p>";
+        return "<h2>" + title + "</h2>"
+                + "<details style=\"cursor: pointer; font-size: 1.3em\"> " +
+                "<summary>Respostas</summary> " +
+                "<p><pre> " + toJson(relatorio) + "</pre></p></details>";
     }
 }

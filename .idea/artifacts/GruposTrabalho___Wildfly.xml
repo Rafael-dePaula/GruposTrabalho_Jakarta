@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="GruposTrabalho - Wildfly">
+    <output-path>//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-26.1.2.Final/standalone/deployments</output-path>
+    <root id="archive" name="GruposTrabalho-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GruposTrabalho - Jakarta 9:war exploded" />
+    </root>
+  </artifact>
+</component>

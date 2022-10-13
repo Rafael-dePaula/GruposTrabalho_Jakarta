@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;GruposTrabalho - consultas:  01 - 19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" afterDir="false" />
+    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;GruposTrabalho - consultas: 20">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Wildfly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/consultas/ConsultasBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/consultas/ConsultasBeanLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciaisLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciaisLocal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Atuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/HTMLBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/HTMLBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,8 +73,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-27.0.0.Beta1/standalone/deployments",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-26.1.2.Final/standalone/deployments",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -75,6 +85,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="io.github.rafadepaula.grupostrabalho.beans.pessoa" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +102,8 @@
       <workItem from="1665530574716" duration="272000" />
       <workItem from="1665536017643" duration="16871000" />
       <workItem from="1665593350807" duration="117000" />
-      <workItem from="1665597042282" duration="26975000" />
+      <workItem from="1665597042282" duration="27056000" />
+      <workItem from="1665663795043" duration="9625000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;GruposTrabalho - consultas:  01 - 19">
       <created>1665628728556</created>
@@ -103,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665628819259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;GruposTrabalho - consultas: 20">
+      <created>1665630835495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665630835495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;GruposTrabalho - consultas:  01 - 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;GruposTrabalho - consultas:  01 - 19" />
+    <MESSAGE value="&#10;GruposTrabalho - consultas: 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;GruposTrabalho - consultas: 20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

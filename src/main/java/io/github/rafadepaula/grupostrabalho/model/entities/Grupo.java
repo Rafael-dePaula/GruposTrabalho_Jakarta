@@ -1,8 +1,7 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
-import jakarta.json.bind.annotation.JsonbTransient;
-import jakarta.persistence.*;
-
+import javax.json.bind.annotation.JsonbTransient;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
 
@@ -15,14 +14,15 @@ public class Grupo implements Serializable {
     @Column(length = 65)
     private String nome;
 
-    private Boolean ativo;
+    private Boolean ativo = true;
 
-    @OneToMany(mappedBy = "grupo", cascade = CascadeType.PERSIST)
-    @JsonbTransient
+    @OneToMany(mappedBy = "grupo",
+            cascade = CascadeType.PERSIST,
+            orphanRemoval = true)
     private List<Atuacao> atuacoes = new java.util.ArrayList<>();
 
     @ManyToOne
-    @JoinColumn(name = "pessoa_id")
+    @JoinColumn(name = "lider_id")
     @JsonbTransient
     private Pessoa lider;
 
