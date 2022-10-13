@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;GruposTrabalho - consultas:  01 - 19">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciaisLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Atuacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Grupo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Telefone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/EstadosDDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/HTMLBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +78,16 @@
       <workItem from="1665530574716" duration="272000" />
       <workItem from="1665536017643" duration="16871000" />
       <workItem from="1665593350807" duration="117000" />
-      <workItem from="1665597042282" duration="24915000" />
+      <workItem from="1665597042282" duration="25002000" />
     </task>
+    <task id="LOCAL-00001" summary="&#10;GruposTrabalho - consultas:  01 - 19">
+      <created>1665628728556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665628728556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

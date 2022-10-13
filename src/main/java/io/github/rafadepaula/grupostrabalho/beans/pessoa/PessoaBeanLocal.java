@@ -9,34 +9,15 @@ import java.util.List;
 
 @Local
 public abstract class PessoaBeanLocal {
-    void salvar(Pessoa pessoa) {
-    }
+    public abstract void salvar(Pessoa pessoa);
 
-    ;
+    public abstract List<Pessoa> consulta1A();
 
-    List<Pessoa> consulta1A() {
-        return null;
-    }
+    public abstract List<String> consulta2A();
 
-    ;
+    public abstract List<Object[]> consulta3A();
 
-    List<String> consulta2A() {
-        return null;
-    }
-
-    ;
-
-    List<Object[]> consulta3A() {
-        return null;
-    }
-
-    ;
-
-    List<Pessoa> consulta4A() {
-        return null;
-    }
-
-    ;
+    public abstract List<Pessoa> consulta4A();
 
     public abstract List<Pessoa> consulta5A();
 
