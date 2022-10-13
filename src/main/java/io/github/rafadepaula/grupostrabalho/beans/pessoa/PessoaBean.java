@@ -1,8 +1,9 @@
 package io.github.rafadepaula.grupostrabalho.beans.pessoa;
 
 
-import io.github.rafadepaula.grupostrabalho.entities.Grupo;
-import io.github.rafadepaula.grupostrabalho.entities.Pessoa;
+import io.github.rafadepaula.grupostrabalho.model.dtos.MembroDto;
+import io.github.rafadepaula.grupostrabalho.model.entities.Grupo;
+import io.github.rafadepaula.grupostrabalho.model.entities.Pessoa;
 import io.github.rafadepaula.grupostrabalho.utils.EstadosDDD;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
@@ -173,4 +174,12 @@ public class PessoaBean extends PessoaBeanLocal {
                 .getResultList();
     }
 
+    @Override
+    public List<MembroDto> consulta20(LocalDate dataInicio) {
+        String query = "SELECT new io.github.rafadepaula.grupostrabalho.model.dtos.MembroDto(a.grupo.nome, a.inicio, a.pessoa.nome) FROM Atuacao a WHERE a.inicio >= :dataInicio";
+        return (List<MembroDto>) entityManager
+                .createQuery(query)
+                .setParameter("dataInicio", dataInicio)
+                .getResultList();
+    }
 }

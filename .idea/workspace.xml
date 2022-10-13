@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="">
+    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;GruposTrabalho - consultas:  01 - 19">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Atuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/entities/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-27.0.0.Beta1/standalone/deployments&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/rafa/codes/Jakarta/GruposTrabalho/wildfly-27.0.0.Beta1/standalone/deployments",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +87,7 @@
       <workItem from="1665530574716" duration="272000" />
       <workItem from="1665536017643" duration="16871000" />
       <workItem from="1665593350807" duration="117000" />
-      <workItem from="1665597042282" duration="25002000" />
+      <workItem from="1665597042282" duration="26975000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;GruposTrabalho - consultas:  01 - 19">
       <created>1665628728556</created>
@@ -87,16 +96,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665628728556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;GruposTrabalho - consultas:  01 - 19">
+      <created>1665628819259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665628819259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;GruposTrabalho - consultas:  01 - 19" />
     <option name="LAST_COMMIT_MESSAGE" value="&#10;GruposTrabalho - consultas:  01 - 19" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

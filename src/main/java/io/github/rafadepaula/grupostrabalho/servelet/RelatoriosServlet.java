@@ -144,6 +144,11 @@ public class RelatoriosServlet extends HttpServlet {
                 pessoaBean.consulta19(1L, LocalDate.of(2012, Month.JANUARY, 1))
         ));
 
+        out.println(HTMLBuilder.blocoRelatorioBuilder(
+                "Consulta 20: Quais os grupos (nomes), membros (nomes) e as respectivas datas de entrada daqueles que entraram a partir de 2012 em qualquer grupo?",
+                pessoaBean.consulta20(LocalDate.of(2012, Month.JANUARY, 1))
+        ));
+
         out.println("</body></html>");
 
     }

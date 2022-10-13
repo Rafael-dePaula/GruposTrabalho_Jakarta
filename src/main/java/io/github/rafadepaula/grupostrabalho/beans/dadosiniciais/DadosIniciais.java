@@ -1,7 +1,7 @@
 package io.github.rafadepaula.grupostrabalho.beans.dadosiniciais;
 
 import io.github.rafadepaula.grupostrabalho.beans.pessoa.PessoaBean;
-import io.github.rafadepaula.grupostrabalho.entities.*;
+import io.github.rafadepaula.grupostrabalho.model.entities.*;
 import jakarta.annotation.PostConstruct;
 import jakarta.ejb.Singleton;
 import jakarta.ejb.Startup;

@@ -1,4 +1,4 @@
-package io.github.rafadepaula.grupostrabalho.entities;
+package io.github.rafadepaula.grupostrabalho.model.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

@@ -1,7 +1,8 @@
 package io.github.rafadepaula.grupostrabalho.beans.pessoa;
 
-import io.github.rafadepaula.grupostrabalho.entities.Grupo;
-import io.github.rafadepaula.grupostrabalho.entities.Pessoa;
+import io.github.rafadepaula.grupostrabalho.model.dtos.MembroDto;
+import io.github.rafadepaula.grupostrabalho.model.entities.Grupo;
+import io.github.rafadepaula.grupostrabalho.model.entities.Pessoa;
 import jakarta.ejb.Local;
 
 import java.time.LocalDate;
@@ -49,4 +50,6 @@ public abstract class PessoaBeanLocal {
     public abstract List<Object[]> consulta18(Long total);
 
     public abstract List<String> consulta19(Long grupoId, LocalDate dataInicio);
+
+    public abstract List<MembroDto> consulta20(LocalDate dataInicio);
 }
