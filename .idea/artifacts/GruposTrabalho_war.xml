@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="GruposTrabalho - Jakarta 9:war">
+  <artifact type="war" name="GruposTrabalho:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>GruposTrabalho - Jakarta 9</module>
+        <module>GruposTrabalho</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="archive" name="GruposTrabalho-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="GruposTrabalho - Jakarta 9:war exploded" />
+      <element id="artifact" artifact-name="GruposTrabalho:war exploded" />
     </root>
   </artifact>
 </component>

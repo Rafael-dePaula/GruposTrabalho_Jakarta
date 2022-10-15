@@ -22,8 +22,8 @@ public final class HTMLBuilder {
 
     public static String blocoRelatorioBuilder(String title, Object relatorio) {
         return "<h2>" + title + "</h2>"
-                + "<details style=\"cursor: pointer; font-size: 1.3em\"> " +
-                "<summary>Respostas</summary> " +
-                "<p><pre> " + toJson(relatorio) + "</pre></p></details>";
+                + "<details style=\" font-size: 1.3em\"> " +
+                "<summary style=\"cursor: pointer\">Respostas</summary> " +
+                "<p><pre class=\"language-json\"> " + toJson(relatorio) + "</pre></p></details>";
     }
 }

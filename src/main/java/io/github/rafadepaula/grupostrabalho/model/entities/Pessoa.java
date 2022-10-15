@@ -12,22 +12,22 @@ import java.util.List;
 @Entity
 @NamedQueries({
         @NamedQuery(
-                name = "Pessoa.consulta01",
+                name = "Pessoa.fetchAll",
                 query = "SELECT p FROM Pessoa p"),
         @NamedQuery(
-                name = "Pessoa.consulta02",
+                name = "Pessoa.fetchNames",
                 query = "SELECT p.nome from Pessoa p"),
         @NamedQuery(
-                name = "Pessoa.consulta03",
+                name = "Pessoa.fetchNameAndAddress",
                 query = "SELECT p.nome, p.endereco from Pessoa p"),
         @NamedQuery(
-                name = "Pessoa.consulta04",
+                name = "Pessoa.fetchLiveOnAvenue",
                 query = "SELECT p from Pessoa p WHERE p.endereco.tipoLogradouro = 1"),
         @NamedQuery(
-                name = "Pessoa.consulta05",
+                name = "Pessoa.fetchNotLiveOnSquare",
                 query = "SELECT p from Pessoa p WHERE NOT p.endereco.tipoLogradouro = 2"),
         @NamedQuery(
-                name = "Pessoa.consulta06",
+                name = "Pessoa.fetchNameAndPhone",
                 query = "SELECT p.nome, t FROM Pessoa p, IN (p.telefones) t")
 })
 public class Pessoa implements Serializable {
@@ -46,7 +46,11 @@ public class Pessoa implements Serializable {
     @Transient
     private Byte idade;
 
-    @Embedded
+    //    @OneToOne
+    @OneToOne(
+            cascade = CascadeType.ALL,
+            orphanRemoval = true)
+    @JoinColumn(name = "pessoa_id")
     private Endereco endereco;
 
     @OneToMany(

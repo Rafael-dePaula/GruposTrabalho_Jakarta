@@ -1,11 +1,9 @@
 package io.github.rafadepaula.grupostrabalho.model.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
-import javax.persistence.Enumerated;
+import javax.persistence.*;
 import java.io.Serializable;
 
-@Embeddable
+@Entity
 public class Endereco implements Serializable {
     public enum TipoLogradouro {
         RUA,
@@ -13,6 +11,10 @@ public class Endereco implements Serializable {
         PRACA,
         OUTRO
     }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Enumerated
     private TipoLogradouro tipoLogradouro;
@@ -28,7 +30,6 @@ public class Endereco implements Serializable {
     public Endereco() {
     }
 
-    ;
 
     public Endereco(TipoLogradouro tipoLogradouro, String logradouro, Integer numero, String bairro) {
         this.tipoLogradouro = tipoLogradouro;
@@ -38,6 +39,15 @@ public class Endereco implements Serializable {
     }
 
     //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 
     public TipoLogradouro getTipoLogradouro() {
         return tipoLogradouro;
