@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;GruposTrabalho - consultas: 20">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/grupo/GrupoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/grupo/GrupoBeanLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/relatorios.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/prism.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Jakarta_9_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho___Wildfly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GruposTrabalho_war___deploy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/consultas/ConsultasBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/consultas/ConsultasBeanLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/pessoa/PessoaBeanLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/servelet/RelatoriosServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/HTMLBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/utils/HTMLBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+    <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;Correções,">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/relatorios.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/prism.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +121,7 @@
       <workItem from="1665790198193" duration="10000" />
       <workItem from="1665790235955" duration="523000" />
       <workItem from="1665791042020" duration="3000" />
-      <workItem from="1665791937408" duration="4117000" />
+      <workItem from="1665791937408" duration="4438000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;GruposTrabalho - consultas:  01 - 19">
       <created>1665628728556</created>
@@ -160,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665630835495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;Correções,">
+      <created>1665797584313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665797584313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;GruposTrabalho - consultas:  01 - 19" />
     <MESSAGE value="&#10;GruposTrabalho - consultas: 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;GruposTrabalho - consultas: 20" />
+    <MESSAGE value="&#10;Correções," />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Correções," />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
