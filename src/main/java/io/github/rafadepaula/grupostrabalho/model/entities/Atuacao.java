@@ -25,36 +25,14 @@ public class Atuacao implements Serializable {
     @JsonbTransient
     private Grupo grupo;
 
+
+    //<editor-fold defaultstate="collapsed" desc="Constructors">
+
     public Atuacao() {
-    }
-
-    public Atuacao(LocalDate inicio, Pessoa pessoa, Grupo grupo) {
-        this.inicio = inicio;
-        this.pessoa = pessoa;
-        this.grupo = grupo;
-    }
-
-    public Atuacao(Long id, LocalDate inicio, LocalDate termino) {
-        this.id = id;
-        this.inicio = inicio;
-        this.termino = termino;
-    }
-
-    public Atuacao(LocalDate inicio, LocalDate termino) {
-        this.id = id;
-        this.inicio = inicio;
-        this.termino = termino;
     }
 
     public Atuacao(LocalDate inicio, Grupo grupo) {
         this.inicio = inicio;
-        this.grupo = grupo;
-    }
-
-    public Atuacao(LocalDate inicio, LocalDate termino, Pessoa pessoa, Grupo grupo) {
-        this.inicio = inicio;
-        this.termino = termino;
-        this.pessoa = pessoa;
         this.grupo = grupo;
     }
 
@@ -64,6 +42,9 @@ public class Atuacao implements Serializable {
         this.grupo = grupo;
     }
 
+    //</editor-fold>>
+
+    //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
     public Long getId() {
         return id;
     }
@@ -103,4 +84,6 @@ public class Atuacao implements Serializable {
     public void setPessoa(Pessoa pessoa) {
         this.pessoa = pessoa;
     }
+
+    //</editor-fold>
 }

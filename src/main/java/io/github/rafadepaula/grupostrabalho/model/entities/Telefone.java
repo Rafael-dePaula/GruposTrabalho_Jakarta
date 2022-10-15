@@ -14,6 +14,7 @@ public class Telefone implements Serializable {
     private Byte ddd;
     private Integer numero;
 
+    //<editor-fold defaultstate="collapsed" desc="Constructors">
     public Telefone() {
     }
 
@@ -21,6 +22,9 @@ public class Telefone implements Serializable {
         this.ddd = ddd;
         this.numero = numero;
     }
+
+    //</editor-fold>
+
 
     //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
     public Long getId() {
@@ -48,11 +52,4 @@ public class Telefone implements Serializable {
     }
 
     // </editor-fold>
-
-
-    @Override
-    public String toString() {
-        return "(" + ddd +
-                ") " + numero;
-    }
 }

@@ -30,13 +30,14 @@ public class Endereco implements Serializable {
     public Endereco() {
     }
 
-
+    //<editor-fold defaultstate="collapsed" desc="Constructors">
     public Endereco(TipoLogradouro tipoLogradouro, String logradouro, Integer numero, String bairro) {
         this.tipoLogradouro = tipoLogradouro;
         this.logradouro = logradouro;
         this.numero = numero;
         this.bairro = bairro;
     }
+    //</editor-fold>
 
     //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
 
@@ -82,15 +83,4 @@ public class Endereco implements Serializable {
     }
 
     //</editor-fold>
-
-
-    @Override
-    public String toString() {
-        return "Endereco{" +
-                "tipoLogradouro=" + tipoLogradouro +
-                ", logradouro='" + logradouro + '\'' +
-                ", numero=" + numero +
-                ", bairro='" + bairro + '\'' +
-                '}';
-    }
 }

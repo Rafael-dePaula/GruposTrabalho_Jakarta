@@ -7,17 +7,16 @@ public class MembroDto {
     private String nome;
     private LocalDate inicio;
 
+    //<editor-fold defaultstate="collapsed" desc="Constructors">
+
     public MembroDto(String nomeGrupo, LocalDate dataInicio, String nomeMembro) {
         this.grupo = nomeGrupo;
         this.inicio = dataInicio;
         this.nome = nomeMembro;
     }
+    //</editor-fold>
 
-    public MembroDto(String grupo, String nome) {
-        this.grupo = grupo;
-        this.nome = nome;
-    }
-
+    //<editor-fold defaultstate="collapsed" desc="Getters/Setters">
     public String getGrupo() {
         return grupo;
     }
@@ -41,4 +40,6 @@ public class MembroDto {
     public void setInicio(LocalDate inicio) {
         this.inicio = inicio;
     }
+
+    //</editor-fold>
 }

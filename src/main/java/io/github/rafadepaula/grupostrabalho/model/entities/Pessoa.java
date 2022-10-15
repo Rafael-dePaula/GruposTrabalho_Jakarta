@@ -175,8 +175,4 @@ public class Pessoa implements Serializable {
     }
 
     //</editor-fold>
-
-    //<editor-fold defaultstate="collapsed" desc="Hash/Equals/toString">
-
-    //</editor-fold>
 }

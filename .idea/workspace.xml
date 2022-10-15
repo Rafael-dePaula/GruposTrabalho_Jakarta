@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9269a7b6-212c-4ba0-ada8-d4f7bae1c809" name="Changes" comment="&#10;Correções,">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/relatorios.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciaisLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/beans/dadosiniciais/DadosIniciaisLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/dtos/MembroDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Atuacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rafadepaula/grupostrabalho/model/entities/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +128,8 @@
       <workItem from="1665790198193" duration="10000" />
       <workItem from="1665790235955" duration="523000" />
       <workItem from="1665791042020" duration="3000" />
-      <workItem from="1665791937408" duration="4438000" />
+      <workItem from="1665791937408" duration="4473000" />
+      <workItem from="1665797957043" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;GruposTrabalho - consultas:  01 - 19">
       <created>1665628728556</created>
@@ -151,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665797584313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;Correções,">
+      <created>1665797801816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665797801816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

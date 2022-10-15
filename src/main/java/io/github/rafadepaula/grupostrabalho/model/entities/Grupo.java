@@ -70,6 +70,7 @@ public class Grupo implements Serializable {
 
     //</editor-fold>
 
+    //<editor-fold defaultstate="collapsed" desc="Constructors">
     public Grupo() {
     }
 
@@ -77,5 +78,7 @@ public class Grupo implements Serializable {
         this.setNome(nome);
         this.setAtivo(ativo);
     }
+
+    //</editor-fold>
 
 }
